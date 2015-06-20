@@ -57,8 +57,9 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void toggleAnimation(View v) {
-        if (i == 9)
+        if (i == 9) {
             i = 0;
+        }
         text.setText(animName[i]);
         pop.setAnimation(anims[i]);
         pop.show(v, R.layout.layout);
