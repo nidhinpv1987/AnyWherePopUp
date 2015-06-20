@@ -6,16 +6,30 @@
     android:padding="10dip"
     android:background="#fffff421">
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Do you want to exit ?"
+        android:id="@+id/textView"
+        android:textSize="18sp" />
 
-    <RadioButton
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New RadioButton"
-        android:id="@+id/radioButton" />
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            android:id="@+id/button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/button3" />
+    </LinearLayout>
+
 </LinearLayout>
