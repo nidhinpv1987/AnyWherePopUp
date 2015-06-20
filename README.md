@@ -2,7 +2,6 @@
 Show your poup in any pont inside your layout
 
 Show your layout on button click in a place near to the button
-
 You can also set animation to the entry and exit of the popup by using setAnimation(int animStyle) method.
 
 There is 9 predefined animation in AnimationStyle.java class provided with library 
